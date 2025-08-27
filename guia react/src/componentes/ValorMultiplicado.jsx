@@ -1,22 +1,23 @@
 import React, { useState } from "react";
 
-function ValorMultiplicado() {
-    const [número, setNúmero] = useState(0);
+function ValorMultiplicar() {
+  const [numero, setNumero] = useState(0);
 
-    const  handleChange = (e) =>{
-        setNúmero(número(e.target.value))
-    };
-    return(
-        <>
-        <input 
-        type="Number"
-        value={número}
-        onChange={handleChange} 
-        placeholder="ingresar un numero"
-        />
-        <p>{}</p>
-        </>
-    );
+  const handleChange = (e) => {
+    setNumero(Number(e.target.value));
+  };
+
+  return (
+    <div style={{ textAlign: "center", marginTop: "50px" }}>
+      <input
+        type=""
+        value={numero}
+        onChange={handleChange}
+        placeholder="Ingresa un número"
+      />
+      <p>Resultado x2: {numero * 2}</p>
+    </div>
+  );
 }
 
-export default ValorMultiplicado;
+export default ValorMultiplicar;

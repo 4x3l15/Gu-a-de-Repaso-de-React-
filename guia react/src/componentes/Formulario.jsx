@@ -6,7 +6,6 @@ function Formulario() {
     email: "",
   });
 
-  // Manejar cambios en los inputs
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData({
@@ -15,7 +14,6 @@ function Formulario() {
     });
   };
 
-  // Manejar envío del formulario
   const handleSubmit = (e) => {
     e.preventDefault();
     alert(`Nombre: ${formData.nombre} \nEmail: ${formData.email}`);

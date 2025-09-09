@@ -13,7 +13,6 @@ function ContadorAuto() {
 
   return (
     <div style={{ textAlign: "center", marginTop: "50px" }}>
-      <h2>Ejercicio 13: Contador con useEffect</h2>
       <p>Contador: {contador}</p>
     </div>
   );

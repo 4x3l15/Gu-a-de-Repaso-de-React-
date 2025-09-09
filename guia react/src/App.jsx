@@ -12,7 +12,9 @@ import FiltroFrutas from './componentes/FiltroFrutas';
 import Reducir from './componentes/Reducir';
 import Formulario from './componentes/Formulario';
 import EfectoConsola from './componentes/EfectoConsola';
-import AutoCorrector from './componentes/AutoCorrector';
+import CorrectorAuto from './componentes/CorrectorAuto';
+import FormularioControlado from './componentes/FormularioControlado';
+import AppTareas from './componentes/AppTareas';
 
 
 
@@ -80,13 +82,23 @@ function App() {
     </div>
     <hr />
     <div>
-      <h1>Ejercicio 12: useEffect</h1>
+      <h1>Ejercicio 12</h1>
       <EfectoConsola />
     </div>
     <hr />
     <div>
       <h1>Ejercicio 13</h1>
-      <AutoCorrector />
+      <CorrectorAuto />
+    </div>
+    <hr />
+    <div>
+      <h1>Formulario Controlado</h1>
+      <FormularioControlado />
+    </div>
+    <hr />
+    <div>
+      <h1>Fin</h1>
+      <AppTareas/>
     </div>
     </>
 

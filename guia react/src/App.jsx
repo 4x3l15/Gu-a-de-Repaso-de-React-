@@ -9,6 +9,10 @@ import FromConAlerta from './componentes/FromConAlerta'
 import ListaNombres from './componentes/ListaNombres'
 import ArrayObjetos from './componentes/ArrayObjetos'
 import FiltroFrutas from './componentes/FiltroFrutas';
+import Reducir from './componentes/Reducir';
+import Formulario from './componentes/Formulario';
+import EfectoConsola from './componentes/EfectoConsola';
+import AutoCorrector from './componentes/AutoCorrector';
 
 
 
@@ -64,7 +68,28 @@ function App() {
       <h1>Filtros de frutas</h1>
       <FiltroFrutas/>
     </div>
+    <hr />
+    <div>
+      <h1>Ejercicio 10: Reducir con .reduce()</h1>
+      <Reducir/>
+    </div>
+    <hr />
+    <div>
+      <h1>Formulario</h1>
+      <Formulario/>
+    </div>
+    <hr />
+    <div>
+      <h1>Ejercicio 12: useEffect</h1>
+      <EfectoConsola />
+    </div>
+    <hr />
+    <div>
+      <h1>Ejercicio 13</h1>
+      <AutoCorrector />
+    </div>
     </>
+
   )
 }
 
